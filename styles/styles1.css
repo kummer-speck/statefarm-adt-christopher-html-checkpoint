@@ -2,11 +2,16 @@ nav {
   background-color: blue;
   border: 5px solid black;
   padding: 25px;
-  margin: 10px;
-  /* position: relative; */
+  /* margin: 10px; */
   text-align: center;
   font-weight: bolder;
   font-size: larger;
+  
+}
+
+
+#link1, #link2 {
+  color: aliceblue;
 }
 
 nav > div > a:hover {
