@@ -1,0 +1,15 @@
+nav {
+  background-color: blue;
+  border: 5px solid black;
+  padding: 25px;
+  margin: 10px;
+  /* position: relative; */
+  text-align: center;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+nav > div > a:hover {
+  background-color: fuchsia;
+}
+
