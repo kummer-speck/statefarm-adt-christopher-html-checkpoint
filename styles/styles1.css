@@ -1,8 +1,19 @@
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+}
+
+main {
+  padding: 30px 20px;
+  /* 100vh - header + footer height */
+  min-height: calc(100vh - 172px);
+  background-image: url(../resources/pictures/rick.jpg);
+}
+
 nav {
   background-color: blue;
   border: 5px solid black;
   padding: 25px;
-  /* margin: 10px; */
   text-align: center;
   font-weight: bolder;
   font-size: larger;
@@ -18,11 +29,15 @@ nav > div > a:hover {
 }
 
 footer {
+  border: 5px solid blue;
   background-color: #000000;
   color: #ffffff;
   text-align: right;
   padding: 15px;
-  margin-top: 5px;
+  margin: 0;
 
 }
 
+#thoughts {
+  margin-top: 5px;
+}

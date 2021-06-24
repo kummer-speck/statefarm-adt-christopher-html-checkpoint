@@ -12,8 +12,8 @@
     <header>
       <nav>
         <div id="links">
-          <a id="link1" href="https://www.google.com">To Google!</a>
-          <a id="link2" href="https://www.google.de/">Google auf Deutsch!</a>
+          <a id="link1" href="https://www.google.com"><span id="span3">To Google!</span><span id="span4">Let's go!</span></a>
+          <a id="link2" href="https://www.google.de/"><span id="span1">Google auf Deutsch!</span><span id="span2">Los Geht's!</span></a>
         </div>
       </nav>
     </header>
@@ -21,50 +21,50 @@
       <ul class="ipsum">
         <li>
           <article>
-            <h4>Checkout our Lorem Ipsum page</h4>
+            <h4>Check out our Lorem Ipsum page</h4>
             <a href="loremIsum.html">Lorem Ipsum</a>
           </article>
         </li>
       </ul>
       <ul class="weather">
-        <li>
-          <div>
-          <article>
-            <h4>Local Weather</h4>
-            <p>Today's weather: Partly Sunny with a high of 85&#176;</p>
-          </article>
-        </li>
-        <li>
-          <article>
-            <h4>Weather Around the Country</h4>
-            <p>In Philadelphia...spoiler it's always: <img src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"  hieght="25" width="25"alt="sunny...always"></p>
-            <p>In Chicago: <img src="https://cdn.icon-icons.com/icons2/1621/PNG/512/3741354-weather-wind-windy_108870.png"  height="25" width="25" alt="windy"></p>
-          </article>
-        </li>
-      </div>
+        <div>
+          <li>
+            <article>
+              <h4 class="weather-head">Local Weather</h4>
+              <p>Today's weather: Partly Sunny with a high of 85&#176;</p>
+            </article>
+          </li>
+          <li>
+            <article class="cities">
+              <h4 class="weather-head">Weather Around the Country</h4>
+              <p id="Philadelphia">In Philadelphia...spoiler it's always: <img src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"  hieght="25" width="25"alt="sunny...always"></p>
+              <p id="Chicago">In Chicago: <img src="https://cdn.icon-icons.com/icons2/1621/PNG/512/3741354-weather-wind-windy_108870.png"  height="25" width="25" alt="windy"></p>
+            </article>
+          </li>
+        </div>
       </ul>
     </main>
     <section>
       <form>
         <h4>Leave us a comment</h4>
         <label for="Name">Name:</label>
-        <input type="text" name="Name" placeholder="Enter your name here"><br>
+        <input class="contact-info" type="text" name="Name" placeholder="Enter your name here"><br>
         <label for="Email">Email:</label>
-        <input type="email" name="Email" placeholder="yourEmail@email.com"><br>
-        <div>
+        <input class="contact-info" type="email" name="Email" placeholder="yourEmail@email.com"><br>
           <h5>Are you a person?</h5>
-          <label for="Person">Yes!</label>
-          <input type="checkbox" name="Person"><br>
-          <label for="Person2">Seriously I'm human</label>
-          <input type="checkbox" name="Person2"><br>
-        </div>
-          <label for="leaveAcomment">Thoughts?</label><br>
-          <input type="text" name="leaveAcomment"><br>
+          <label class="check1" for="Person">Yes!</label>
+          <input class="check1" type="checkbox" name="Person">
+          <label class="check2" for="Person2">Seriously I'm human</label>
+          <input class="check2" type="checkbox" name="Person2"><br>
+          <div id="thoughts">
+            <label id="thoughts" for="leaveAcomment">Thoughts?</label><br>
+            <input type="text" name="leaveAcomment"><br>
+          </div>
           <button type="submit">Submit</button>
       </form>
     </section>
     <footer>
-      <p>Christopher @June 2021</p>
+      <p>Copyright &copy; Christopher June 2021</p>
     </footer>
   </body>
 </html>

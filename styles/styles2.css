@@ -1,17 +1,125 @@
 #link2:hover {
   background-color: rgb(244, 167, 28);
+
 }
+
+#link2:hover #span1{
+  display: none;
+}
+
+#span2 {
+  display: none;
+}
+
+#span4 {
+  display: none;
+}
+
+#link2:hover #span2 {
+  display: inline;
+}
+
+#link1:hover #span4 {
+  display: inline;
+}
+
+#link1:hover #span3 {
+  display: none;
+}
+
+
+
 .weather {
   background-image: url(../resources/pictures/weather.jpg);
+  border: 5px solid black;
   background-size: contain;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.weather-head {
+  font-weight: bolder;
+  color:crimson;
+}
+
+.weather > div > li > article > h4 {
+  padding-top: 5px;
+  margin-top: 0;
+}
+
+#Chicago {
+  margin-bottom: 0;
+  padding-bottom: 5px;
+}
+
+#Chicago, #Philadelphia {
+  font-weight: bolder;
+}
+
+img {
+  background-color: white;
 }
 
 .ipsum {
+  border-style: double;
+  border-width: 10px;
   background-color: darkviolet;
+  padding-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
+.ipsum h4 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .ipsum a {
   color: aliceblue;
   font-size: larger;
+
 }
+
+form {
+  border-style: double;
+  border-width: 10px;
+  padding: 15px;
+}
+
+form > h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 25px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+form > h5 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  margin: 10px auto auto auto;
+}
+
+form > button {
+  margin-top: 10px;
+  border-style: groove;
+  border-width: 10px;
+  padding: 10px;
+  border-top-color: yellow;
+  border-left-color: darkred;
+  border-bottom-color: darkorchid;
+  border-right-color: aqua;
+}
+
+label.check1 {
+  color: blue;
+}
+
+label.check2 {
+  color:rgb(244, 167, 28);
+}
+
+.contact-info:focus::placeholder {
+  color: transparent;
+}
+
